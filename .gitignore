@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Model files
+*.pt
+
+# Videos
+*.mp4
+*.avi
+*.mov
+
+# Generated evidence
+frontend/violations/*.jpg
+frontend/violations/*.png
+frontend/violations/*.txt
+
+# MacOS
+.DS_Store
