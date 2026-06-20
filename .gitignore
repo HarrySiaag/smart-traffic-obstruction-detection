@@ -232,3 +232,6 @@ frontend/violations/*.txt
 
 # MacOS
 .DS_Store
+
+# YOLO model weights
+*.pt
