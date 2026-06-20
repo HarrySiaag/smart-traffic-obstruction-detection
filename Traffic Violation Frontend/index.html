@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>
+        Emergency Vehicle Dashboard
+    </title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ============================== -->
+    <!-- NAVBAR -->
+    <!-- ============================== -->
+    <header class="navbar">
+
+        <div>
+            <h1>
+                Emergency Vehicle Obstruction Dashboard
+            </h1>
+        </div>
+
+        <div class="status-box">
+
+            <span class="live-dot"></span>
+
+            System Active
+
+        </div>
+
+    </header>
+
+    <!-- ============================== -->
+    <!-- STATS SECTION -->
+    <!-- ============================== -->
+    <section class="stats-section">
+
+        <div class="stat-card">
+
+            <h2 id="totalViolations">
+                0
+            </h2>
+
+            <p>
+                Total Violations
+            </p>
+
+        </div>
+
+        <div class="stat-card">
+
+            <h2 id="todayViolations">
+                0
+            </h2>
+
+            <p>
+                Today's Violations
+            </p>
+
+        </div>
+
+        <div class="stat-card">
+
+            <h2>
+                ACTIVE
+            </h2>
+
+            <p>
+                Monitoring Status
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ============================== -->
+    <!-- SEARCH -->
+    <!-- ============================== -->
+    <section class="search-section">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search by Number Plate..."
+        />
+
+    </section>
+
+    <!-- ============================== -->
+    <!-- MAIN GRID -->
+    <!-- ============================== -->
+    <main>
+
+        <div
+            id="violationGrid"
+            class="violation-grid"
+        >
+
+            <!-- Dynamic cards will appear here -->
+
+        </div>
+
+    </main>
+
+    <!-- ============================== -->
+    <!-- SCRIPT -->
+    <!-- ============================== -->
+    <script src="script.js"></script>
+
+</body>
+</html>
